@@ -1,0 +1,95 @@
+.error {
+	color: red;
+	font-size: 6px;
+	display: block;
+	margin-top: 5px;
+}
+
+.payment {
+  padding: 20px;
+	
+  background-color: var(--primary-color);
+  background-image: url('../../assets/contact_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.payment h1 {
+	font-size: 40px;
+	text-align:center;
+}
+
+.payment__form {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    padding: 20px; /* Adjust padding as needed */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto; /* Center the form horizontally */
+}
+.cvv-input{
+    width: 100%;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 30px;
+    border: 1px solid #ccc; /* Border for input fields */
+    margin-bottom: 10px;
+	color: var(--black-200);
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter background color */
+}
+
+.payment__form label {
+    font-family: var(--plus-jakarta-sans);
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+	padding: 10px;
+}
+
+.payment__form input[type="text"],
+.payment__form input[type="text"]:focus {
+    width: 100%;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 30px;
+    border: 1px solid #ccc; /* Border for input fields */
+    margin-bottom: 10px;
+	color: var(--black-200);
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter background color */
+}
+
+.payment__form textarea {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 10px;
+    border: 15px solid #ccc; /* Border for textarea */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter background color */
+}
+
+.payment__form button {
+  padding: 20px;
+
+  min-width: 180px;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+  color: #fff;
+  text-align: center;
+
+  background: var(--black-400);
+  border-radius: 46px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.payment__form button:hover {
+    background-color: pink;
+	color: black;
+}
